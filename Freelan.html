@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Freelancer Landing Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="freelan.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Freelancer</div>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+    <!-- Header Section -->
+    <header id="home">
+        <h1>Hi, I'm Adebola</h1>
+        <p>Creative Frontend Web Developer</p>
+         <p>I build clean, responsive websites with HTML & CSS.</p>
+        <a href="#contact"><button class="cta-btn">Hire Me</button></a>
+    </header>
+    <!-- About Me Section -->
+    <section class="about" id="about">
+        <img src="oD8zv_RAW_profile_logo_.jpg" alt="profile projects-list">
+        <div>
+            <h2>About Me</h2>
+            <p>
+                I'm a passionate freelancer with 3+ years of experience building beautiful, responsive websites and web apps. I love turning ideas into reality and helping clients grow their businesses online.I’m a self-taught web developer who specializes in building static websites with HTML, CSS and JavaScript. I enjoy designing clean, mobile-friendly pages for personal brands and small businesses. My goal is to create user-friendly experiences that look great on any device.
+            </p>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-list">
+            <div class="skill">HTML5</div>
+            <div class="skill">CSS3</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React.js</div>
+            <div class="skill">WordPress</div>
+            <div class="skill">Responsive Design</div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="projects-list">
+            <div class="project-card" data-index="0">
+                <img src="Capture 2.PNG" alt="Project 1">
+                <h3>Portfolio Website</h3>
+                <p>Personal portfolio to showcase my work and skills.</p>
+                <button class="modal-btn">View Details</button>
+            </div>
+            <div class="project-card" data-index="1">
+                <img src="Efficient Landing-page.PNG" alt="Project 2">
+                <h3>E-commerce Store</h3>
+                <p>Modern online store with payment integration.</p>
+                <button class="modal-btn">View Details</button>
+            </div>
+            <div class="project-card" data-index="2">
+                <img src="Capture4.PNG" alt="Project 3">
+                <h3>Form Registration</h3>
+                <p>Responsive registration form with CMS features.</p>
+                <button class="modal-btn">View Details</button>
+            </div>
+        </div>
+    </section>
+    <!-- Modal for Projects -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <img src="" alt="Project Image" id="modalImg">
+            <h3 id="modalTitle"></h3>
+            <p id="modalDesc"></p>
+            <div class="modal-nav">
+                <button id="modalPrev">&larr; Prev</button>
+                <button id="modalNext">Next &rarr;</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Certificate Section -->
+    <section class="certificate-section" id="certificate">
+        <h2>View Certificate</h2>
+        <button class="certificate-btn" id="openCertificate">View My Certificate</button>
+    </section>
+
+    <!-- Certificate Modal -->
+    <div id="certificateModal">
+        <div class="certificate-modal-content">
+            <button class="certificate-modal-close" id="closeCertificate">&times;</button>
+            <h3>Certificate of Achievement</h3>
+            <div class="certificate-style">
+             <img src="Capture.PNG" alt="certificate image" class="certificate-image" style="width: 100%; height: auto;">
+            </div>
+            <p>This certificate recognizes outstanding skills in web development, design, and client satisfaction.</p>
+        </div>
+    </div>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form" autocomplete="off">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Adebola Designs. All rights reserved.
+    </footer>
+    <!-- Back to Top Button -->
+    <button id="backToTop" title="Back to Top">&#8679;</button>
+    <script src="freelan.js"></script>
+</body>
+</html>
