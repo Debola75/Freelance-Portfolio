@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
-// form submission (demo)
+// form submission
 document.querySelector('.contact-form').addEventListener('submit', async e => {
     e.preventDefault();
     const form = e.target;

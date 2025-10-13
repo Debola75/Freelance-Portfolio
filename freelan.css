@@ -529,12 +529,14 @@ footer {
         flex-direction: column;
         background: var(--white);
         position: absolute;
-        top: 60px; right: 10px;
+        top: 60px;
+        right: 10px;
         width: 180px;
         box-shadow: var(--shadow);
         border-radius: 12px;
         padding: 1rem 0;
         z-index: 1000;
+        text-align: center;
     }
     nav ul.open {
         display: flex;
