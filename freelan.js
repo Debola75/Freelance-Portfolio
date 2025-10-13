@@ -114,13 +114,3 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
-// Form Submission
-function sendEmail(){
-    let params = {
-        name: document.getElementById("name").value,
-        email: document.getElementById("email").value,
-        message: document.getElementById("message").value,
-    };
-
-    alert("Success! I will get back to you soon.");
-}

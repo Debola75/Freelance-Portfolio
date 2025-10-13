@@ -111,12 +111,11 @@
     <!-- Contact Section -->
     <section class="contact" id="contact">
         <h2>Contact Me</h2>
-        <form class="contact-form" autocomplete="on">
-            <!-- <input type="hidden" name="access_key" value="6245dc27-2431-4d67-a93c-6405529c1839"> -->
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <textarea rows="4" id="message" placeholder="Your Message" required></textarea>
-            <button type="submit" onclick="sendEmail()">Send Message</button>
+        <form class="contact-form" autocomplete="on" action="https://formsubmit.co/adebolaogunsanya75@gmail.com" method="POST">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea rows="4" id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" onclick="alert('Success! Kindly complete CAPTCHA')">Send Message</button>
         </form>
     </section>
     <!-- Footer -->
