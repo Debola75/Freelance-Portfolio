@@ -114,22 +114,13 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
-// form submission
-document.querySelector('.contact-form').addEventListener('submit', async e => {
-    e.preventDefault();
-    const form = e.target;
-    const formData = new FormData(form);
-    const data = Object.fromEntries(formData.entries());
+// Form Submission
+function sendEmail(){
+    let params = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        message: document.getElementById("message").value,
+    };
 
-    try {
-        await fetch('https://formspree.io/f/xdoqzqoq', {
-            method: 'POST',
-            headers: { 'Accept': 'application/json' },
-            body: formData
-        });
-        alert('Thank you for reaching out!');
-        form.reset();
-    } catch (error) {
-        alert('There was an error submitting the form. Please try again.');
-    }
-});
+    alert("Success! I will get back to you soon.");
+}
