@@ -39,12 +39,12 @@ backToTop.addEventListener('click', () => {
 // Modal Project Slideshow
 const projects = [
     {
-        img: "Capture 2.PNG",
+        img: "Capture2.PNG",
         title: "Portfolio Website",
         desc: "Personal portfolio to showcase my work and skills."
     },
     {
-        img: "Efficient Landing-page.PNG",
+        img: "Efficient-Landing-page.PNG",
         title: "E-commerce Store",
         desc: "Modern online store with payment integration."
     },
