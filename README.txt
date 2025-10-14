@@ -1,10 +1,12 @@
-# Freelancer Landing Page Template
+# My Portfolio Landing Page Template
 
 Thank you for downloading this HTML/CSS template!
 
 ## What's Included
-- index.html
-- style.css
+- Freelan.html
+- freelan.css
+- freelan.js
+- /img (if Included)
 - /fonts folder (if used)
 
 ## How to Use
@@ -16,6 +18,6 @@ Thank you for downloading this HTML/CSS template!
 - This template is mobile responsive.
 - Built with clean HTML5, CSS3 AND JAVASCRIPT.
 
-Questions? Contact me at [your email or Fiverr link]
+Questions? Contact me at adebolaogunsanya75@gmail.com
 
 Enjoy!
